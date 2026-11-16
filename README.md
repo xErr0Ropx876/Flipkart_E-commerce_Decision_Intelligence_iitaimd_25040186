@@ -1,14 +1,14 @@
 Domain: E-commerce
 
-ShopperPulse is an offline decision-intelligence pipeline built in Python 3.10+ and NumPy (`1.26.4`) for a synthetic Flipkart e-commerce customer analytics and retention scenario. Every observation in `data/records.csv` is produced deterministically by `generate_data.py` and does not represent real Flipkart customer data, products, policies, or business performance. Across four connected modules (`part1.py` to `part4.py`, sharing core utilities in `common.py`), the repository evaluates the INR 800 average-order-value planning assumption, predicts 90-day churn to set a cost-minimising alert threshold, profiles three customer segments with PCA and clustering, and compares structured-data classifiers alongside parameter sizing for future image and text neural networks.
+This repository is an offline decision-intelligence pipeline built in Python 3.10+ and NumPy (`1.26.4`) for a synthetic Flipkart e-commerce customer analytics and retention scenario. Every observation in `data/records.csv` is produced deterministically by `generate_data.py` and does not represent real Flipkart customer data, products, policies, or business performance. Across four connected modules (`part1.py` to `part4.py`, sharing core utilities in `common.py`), the repository evaluates the INR 800 average-order-value planning assumption, predicts 90-day churn to set a cost-minimising alert threshold, profiles three customer segments with PCA and clustering, and compares structured-data classifiers alongside parameter sizing for future image and text neural networks.
 
 ## How to run
 
 Run the following commands in order from a clean clone of the repository:
 
 ```bash
-git clone <repository-url>
-cd ShopperPulse
+git clone https://github.com/xErr0Ropx876/Flipkart_E-commerce_Decision_Intelligence_iitaimd_25040186.git
+cd Flipkart_E-commerce_Decision_Intelligence_iitaimd_25040186
 python -m venv .venv
 ```
 
